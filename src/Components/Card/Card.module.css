@@ -1,0 +1,19 @@
+.column_wrapper{width: 33% !important;}
+
+.card_wrapper{background-color: #252525;}
+
+.name, .description{color: #fafafa;}
+
+.div_wrapper{display: flex; margin-bottom: 1em;}
+
+.img_wrapper{width: 13%;}
+
+.img_wrapper, .img_wrapper_special{text-align: center; padding: 0.5em; border-bottom-left-radius: 5px; border-top-left-radius: 5px; background-color: #3e8ed0;}
+
+.img_wrapper img{vertical-align: middle;}
+
+.text{display: flex; align-items: center; padding: 0 0.5em; color: #fafafa; background-color: #111111; border-bottom-right-radius: 5px; border-top-right-radius: 5px;}
+
+.img_wrapper_special{border-radius: 5px; width: fit-content;}
+
+.button{background-color: rgb(72, 85, 146) !important; margin: -7% !important; display: flex !important; margin-top: 5% !important; padding: 8%;}
