@@ -8,7 +8,7 @@ const Main = ({ isLoading, hotels }) => {
         <div className={`container ${styles.container_wrapper}`}>
             {!isLoading ? (
                 hotels.length > 0 ? (
-                    <div className="columns is-multiline is-mobile">
+                    <div className="columns is-multiline is-centered">
                         {hotels.map((hotel) =>
                             <Card hotel={hotel} key={hotel.name} />
                         )}

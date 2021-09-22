@@ -9,7 +9,7 @@ const Card = ({ hotel }) => {
     const { name, photo, description, city, country, rooms, price } = hotel;
 
     return (
-        <div className={`column is-one-third ${styles.column_wrapper}`}>
+        <div className={`column is-5-tablet is-mobile is-4-desktop ${styles.column_wrapper}`}>
             <div className="card">
                 <div className="card-image">
                     <figure className="image is-4by3">
